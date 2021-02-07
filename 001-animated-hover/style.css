@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+:root {
+  --clr-bg: hsl(210, 29%, 29%);
+  --clr-fg: white;
+  --clr-hover: hsl(28, 80%, 52%);
+
+  --height: 200px;
+  --gradient: 40%;
+}
+
+/* use only the available space inside the 400x400 frame */
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+
+  margin-top: -200px;
+  margin-left: -200px;
+
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: var(--clr-bg);
+
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: var(--clr-fg);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow: hidden;
+}
+
+/* create the orange overlay and position it half way down */
+.frame::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--height);
+
+  background-color: var(--clr-hover);
+
+  opacity: 90%;
+  z-index: 1;
+}
+
+.frame .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+/* size the text */
+.center > p {
+  font-size: 76px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.center > p::after {
+  content: "hover";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-image: linear-gradient(
+    to top,
+    white var(--gradient),
+    var(--clr-hover)
+  );
+  background-color: transparent;
+  background-clip: text;
+  color: transparent;
+  backdrop-filter: blur(20px);
+}

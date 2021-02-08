@@ -1,0 +1,40 @@
+/* use only the available space inside the 400x400 frame */
+/* use only the available space inside the 400x400 frame */
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+
+  margin-top: -200px;
+  margin-left: -200px;
+
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+
+  background: linear-gradient(135deg, #77c8c0, #267aac, #4ad7b8, #f39c12);
+  background-size: 400% 400%;
+
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: var(--clr-fg);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  animation: Animate-bg 10s ease infinite;
+
+  overflow: hidden;
+}
+
+@keyframes Animate-bg {
+  0% {
+    background-position: 0% 15%;
+  }
+  50% {
+    background-position: 100% 85%;
+  }
+  100% {
+    background-position: 0% 15%;
+  }
+}

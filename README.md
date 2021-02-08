@@ -12,3 +12,12 @@ gradient.
 
 Ref:
 [CSS Custom Properties-Dynamic Changes with Javascript](https://vanseodesign.com/css/custom-properties-and-javascript/)
+
+## Day 2 An Animated Gradient Background
+
+The background is a moving, changing, gradient. Created initial code using a
+gradient tool and then played around with the positioning.
+
+[Completed](https://codepen.io/janegca/pen/WNoxoEg)
+
+Ref: [CSS Gradient Animator](https://www.gradient-animator.com/)

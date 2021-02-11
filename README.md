@@ -11,10 +11,12 @@ gradient.
 
 <p align="center">
 	<iframe
-	  src="https://codepen.io/janegca/full/zYoqyva"
-	  style="width:50%; height:200px;"
+	  src="https://janegca.github.io/css-challenges/060-hover-blind"
+	  style="width:400px; height:400px;"
 	></iframe>
 </p>
+
+[Code](https://github.com/janegca/css-challenges/tree/main/060-hover-blind)
 
 Ref:
 [CSS Custom Properties-Dynamic Changes with Javascript](https://vanseodesign.com/css/custom-properties-and-javascript/)
@@ -24,7 +26,14 @@ Ref:
 The background is a moving, changing, gradient. Created initial code using a
 gradient tool and then played around with the positioning.
 
-[Completed](https://codepen.io/janegca/pen/WNoxoEg)
+<p align="center">
+	<iframe
+	  src="https://janegca.github.io/css-challenges/061-animated-grad-bg"
+	  style="width:400px; height:400px;"
+	></iframe>
+</p>
+
+[Code](https://github.com/janegca/css-challenges/tree/main/061-animated-grad-bg)
 
 Ref: [CSS Gradient Animator](https://www.gradient-animator.com/)
 
@@ -36,7 +45,14 @@ smooth effect was
 1. setting the `will-change` property
 1. applying the transition to the `center` class only
 
-[Completed](https://codepen.io/janegca/pen/YzppVyK)
+<p align="center">
+	<iframe
+	  src="https://janegca.github.io/css-challenges/064-hover-offset"
+	  style="width:400px; height:400px;"
+	></iframe>
+</p>
+
+[Code](https://github.com/janegca/css-challenges/tree/main/064-hover-offset)
 
 Ref:
 [An Interactive Guide to CSS Transitions](https://www.joshwcomeau.com/animation/css-transitions/)

@@ -10,7 +10,7 @@ used JS. Couldn't figure out how to add a vertical blur to the text so added a
 gradient.
 
 <p align="center">
-	<iframe
+	!<iframe
 	  src="https://janegca.github.io/css-challenges/060-hover-blind"
 	  style="width:400px; height:400px;"
     scrolling="no"

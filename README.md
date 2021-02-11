@@ -13,6 +13,7 @@ gradient.
 	<iframe
 	  src="https://janegca.github.io/css-challenges/060-hover-blind"
 	  style="width:400px; height:400px;"
+    scrolling="no"
 	></iframe>
 </p>
 
@@ -30,6 +31,7 @@ gradient tool and then played around with the positioning.
 	<iframe
 	  src="https://janegca.github.io/css-challenges/061-animated-grad-bg"
 	  style="width:400px; height:400px;"
+    scrolling="no"
 	></iframe>
 </p>
 
@@ -49,6 +51,7 @@ smooth effect was
 	<iframe
 	  src="https://janegca.github.io/css-challenges/064-hover-offset"
 	  style="width:400px; height:400px;"
+    scrolling="no"
 	></iframe>
 </p>
 

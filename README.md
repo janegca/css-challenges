@@ -11,13 +11,13 @@ gradient.
 
 <p align="center">
 	!<iframe
-	  src="https://janegca.github.io/css-challenges/060-hover-blind"
+	  src="https://janegca.github.io/css-challenges/059-hover-blind"
 	  style="width:400px; height:400px;"
     scrolling="no"
 	></iframe>
 </p>
 
-[Code](https://github.com/janegca/css-challenges/tree/main/060-hover-blind)
+[Code](https://github.com/janegca/css-challenges/tree/main/059-hover-blind)
 
 Ref:
 [CSS Custom Properties-Dynamic Changes with Javascript](https://vanseodesign.com/css/custom-properties-and-javascript/)
@@ -29,13 +29,13 @@ gradient tool and then played around with the positioning.
 
 <p align="center">
 	<iframe
-	  src="https://janegca.github.io/css-challenges/061-animated-grad-bg"
+	  src="https://janegca.github.io/css-challenges/060-animated-grad-bg"
 	  style="width:400px; height:400px;"
     scrolling="no"
 	></iframe>
 </p>
 
-[Code](https://github.com/janegca/css-challenges/tree/main/061-animated-grad-bg)
+[Code](https://github.com/janegca/css-challenges/tree/main/060-animated-grad-bg)
 
 Ref: [CSS Gradient Animator](https://www.gradient-animator.com/)
 
@@ -49,13 +49,13 @@ smooth effect was
 
 <p align="center">
 	<iframe
-	  src="https://janegca.github.io/css-challenges/064-hover-offset"
+	  src="https://janegca.github.io/css-challenges/063-hover-offset"
 	  style="width:400px; height:400px;"
     scrolling="no"
 	></iframe>
 </p>
 
-[Code](https://github.com/janegca/css-challenges/tree/main/064-hover-offset)
+[Code](https://github.com/janegca/css-challenges/tree/main/063-hover-offset)
 
 Ref:
 [An Interactive Guide to CSS Transitions](https://www.joshwcomeau.com/animation/css-transitions/)

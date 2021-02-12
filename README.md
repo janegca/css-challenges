@@ -9,7 +9,7 @@ The standard _I Ching_ heaven tri-gram used to represent a hidden menu on small
 screens transforms into an X when it has focus.
 
 <span align="center">
- !<iframe
+ <iframe
    src="https://janegca.github.io/css-challenges/001-hamburger-icon/index.html"
    style="width:400px; height:400px;"
     scrolling="no"
@@ -27,7 +27,7 @@ used JS. Couldn't figure out how to add a vertical blur to the text so added a
 gradient.
 
 <span align="center">
- !<iframe
+ <iframe
    src="https://janegca.github.io/css-challenges/059-hover-blind/index.html"
    style="width:400px; height:400px;"
     scrolling="no"
@@ -45,7 +45,7 @@ The background is a moving, changing, gradient. Created initial code using a
 gradient tool and then played around with the positioning.
 
 <span align="center">
- !<iframe
+ <iframe
    src="https://janegca.github.io/css-challenges/060-animated-grad-bg/index.html"
    style="width:400px; height:400px;"
     scrolling="no"
@@ -65,7 +65,7 @@ smooth effect was
 1. applying the transition to the `center` class only
 
 <span align="center">
- !<iframe
+ <iframe
    src="https://janegca.github.io/css-challenges/063-hover-offset"
    style="width:400px; height:400px;"
     scrolling="no"

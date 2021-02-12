@@ -8,13 +8,13 @@ in the middle, but will re-cycle back to day one to cover them all.
 The standard _I Ching_ heaven tri-gram used to represent a hidden menu on small
 screens transforms into an X when it has focus.
 
-<span align="center">
+<p align="center">
  <iframe
    src="https://janegca.github.io/css-challenges/001-hamburger-icon/index.html"
    style="width:400px; height:400px;"
     scrolling="no"
  ></iframe>
-</span>
+</p>
 
 Ref:
 
@@ -26,13 +26,13 @@ An overlay that moves up and down like a blind based on hover. Interactive so
 used JS. Couldn't figure out how to add a vertical blur to the text so added a
 gradient.
 
-<span align="center">
+<p align="center">
  <iframe
    src="https://janegca.github.io/css-challenges/059-hover-blind/index.html"
    style="width:400px; height:400px;"
     scrolling="no"
  ></iframe>
-</span>
+</p>
 
 [Code](https://github.com/janegca/css-challenges/tree/main/059-hover-blind)
 
@@ -44,13 +44,13 @@ Ref:
 The background is a moving, changing, gradient. Created initial code using a
 gradient tool and then played around with the positioning.
 
-<span align="center">
+<p align="center">
  <iframe
    src="https://janegca.github.io/css-challenges/060-animated-grad-bg/index.html"
    style="width:400px; height:400px;"
     scrolling="no"
  ></iframe>
-</span>
+</p>
 
 [Code](https://github.com/janegca/css-challenges/tree/main/060-animated-grad-bg)
 
@@ -64,13 +64,13 @@ smooth effect was
 1. setting the `will-change` property
 1. applying the transition to the `center` class only
 
-<span align="center">
+<p align="center">
  <iframe
    src="https://janegca.github.io/css-challenges/063-hover-offset"
    style="width:400px; height:400px;"
     scrolling="no"
  ></iframe>
-</span>
+</p>
 
 [Code](https://github.com/janegca/css-challenges/tree/main/063-hover-offset)
 

@@ -3,6 +3,23 @@
 The [100 Days CSS Challenges](https://100dayscss.com/) are numbered, I started
 in the middle, but will re-cycle back to day one to cover them all.
 
+## 001: Animated Hamburger Menu Icon
+
+The standard _I Ching_ heaven tri-gram used to represent a hidden menu on small
+screens transforms into an X when it has focus.
+
+<p align="center">
+	!<iframe
+	  src="https://janegca.github.io/css-challenges/001-hamburger-icon/index.html"
+	  style="width:400px; height:400px;"
+    scrolling="no"
+	></iframe>
+</p>
+
+Ref:
+
+- [Use Tabindex to Add Keyboard Focus to an Element](https://www.youtube.com/watch?v=7XbsQlwyHYw)
+
 ## 059: Hover - Blind Effect
 
 An overlay that moves up and down like a blind based on hover. Interactive so

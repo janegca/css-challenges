@@ -3,7 +3,7 @@
 The [100 Days CSS Challenges](https://100dayscss.com/) are numbered, I started
 in the middle, but will re-cycle back to day one to cover them all.
 
-## 060: Hover - Blind Effect
+## 059: Hover - Blind Effect
 
 An overlay that moves up and down like a blind based on hover. Interactive so
 used JS. Couldn't figure out how to add a vertical blur to the text so added a
@@ -22,7 +22,7 @@ gradient.
 Ref:
 [CSS Custom Properties-Dynamic Changes with Javascript](https://vanseodesign.com/css/custom-properties-and-javascript/)
 
-## 061: An Animated Gradient Background
+## 060: An Animated Gradient Background
 
 The background is a moving, changing, gradient. Created initial code using a
 gradient tool and then played around with the positioning.
@@ -39,7 +39,7 @@ gradient tool and then played around with the positioning.
 
 Ref: [CSS Gradient Animator](https://www.gradient-animator.com/)
 
-## 064: Hover - Offset Effect
+## 063: Hover - Offset Effect
 
 Two divisions swap place on hover using transition effect. Trick to getting a
 smooth effect was

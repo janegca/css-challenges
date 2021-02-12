@@ -11,7 +11,7 @@ gradient.
 
 <p align="center">
 	!<iframe
-	  src="https://janegca.github.io/css-challenges/059-hover-blind"
+	  src="https://janegca.github.io/css-challenges/059-hover-blind/index.html"
 	  style="width:400px; height:400px;"
     scrolling="no"
 	></iframe>
@@ -29,7 +29,7 @@ gradient tool and then played around with the positioning.
 
 <p align="center">
 	<iframe
-	  src="https://janegca.github.io/css-challenges/060-animated-grad-bg"
+	  src="https://janegca.github.io/css-challenges/060-animated-grad-bg/index.html"
 	  style="width:400px; height:400px;"
     scrolling="no"
 	></iframe>

@@ -1,0 +1,109 @@
+/* use only the available space inside the 400x400 frame */
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+
+  margin-top: -200px;
+  margin-left: -200px;
+
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+
+  background: hsl(217, 14%, 18%);
+
+  overflow: hidden;
+}
+
+/* -- Composition -- */
+.scene {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50%;
+
+  /* prettier-ignore */
+  background: linear-gradient(to bottom, 
+    transparent 70%, #eedc75 70%);
+  background-repeat: no-repeat;
+  background-color: #89def8;
+
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.scene * {
+  position: absolute;
+}
+
+.scene::before,
+.scene::after {
+  content: "";
+  position: absolute;
+}
+
+/*
+    Pyramid shaping - 
+      had to swipe the polygon code from the challenge example
+ */
+.scene::before {
+  width: 8em;
+  height: 4em;
+  top: 38%;
+  left: 20%;
+
+  background-color: #dcd9d9;
+  clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
+}
+
+.scene::after {
+  width: 4em;
+  height: 4em;
+  top: 38%;
+  left: 52%;
+
+  background-color: #f2f3f3;
+  clip-path: polygon(30% 100%, 100% 100%, 0% 0%);
+}
+
+/* -- Sun -- */
+.scene .sun {
+  width: 2em;
+  height: 2em;
+  top: 2em;
+  left: 2em;
+
+  border-radius: 50%;
+  background-color: yellow;
+
+  animation: sun-path 1s ease-in-out infinite 3s;
+}
+
+.scene .sun:hover {
+  animation-play-state: paused;
+}
+
+/* -- Shadow -- */
+.scene .shadow {
+  width: 8em;
+  height: 4em;
+  top: 70%;
+  left: 20%;
+
+  background-color: #c0b15e;
+  clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
+  transform: scale(-1);
+}
+
+/* -- Keyframes -- */
+@keyframes sun-path {
+  0% {
+    top: 5em;
+    left: -2em;
+  }
+}

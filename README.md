@@ -11,6 +11,10 @@ screens transforms into an X when it has focus.
 Ref:
 [Use Tabindex to Add Keyboard Focus to an Element](https://www.youtube.com/watch?v=7XbsQlwyHYw)
 
+## 002: Pyramid Tableau
+
+A pyramid tableau with an animated sun and shadow effect.
+
 ## 059: Hover - Blind Effect
 
 An overlay that moves up and down like a blind based on hover. Interactive so

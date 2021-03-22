@@ -81,7 +81,7 @@
   border-radius: 50%;
   background-color: yellow;
 
-  animation: sun-path 1s ease-in-out infinite 3s;
+  animation: sun-path 3s ease infinite;
 }
 
 .scene .sun:hover {
@@ -97,13 +97,49 @@
 
   background-color: #c0b15e;
   clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
-  transform: scale(-1);
+  transform: scale(-1) translate3d(0, 0, 0);
+
+  animation: shadow-track 3s ease infinite;
 }
 
 /* -- Keyframes -- */
 @keyframes sun-path {
   0% {
-    top: 5em;
+    top: 6.5em;
     left: -2em;
+  }
+  25% {
+    top: 3em;
+    left: 1em;
+  }
+  50% {
+    top: 0.5em;
+    left: 5em;
+  }
+  75% {
+    top: 3em;
+    left: 8.5em;
+  }
+  100% {
+    top: 6.5em;
+    left: 12em;
+  }
+}
+
+@keyframes shadow-track {
+  0% {
+    clip-path: polygon(0% 100%, 100% 100%, -200% 0%);
+  }
+  25% {
+    clip-path: polygon(0% 100%, 100% 100%, -100% 0%);
+  }
+  50% {
+    clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
+  }
+  75% {
+    clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
+  }
+  100% {
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
   }
 }
